@@ -90,12 +90,16 @@ section h2{
     font-size: 32px;
 }
 
-#spot{
+#sports{
     background-color: rgba(0, 255, 0, 0.1);
 }
 
-#sport .article article a{
+#sports .article article a{
     background-color: #009432
+}
+
+#sports .article article a:hover {
+    padding: 10px;
 }
 
 #economy{
@@ -104,4 +108,32 @@ section h2{
 
 #economy .article article a {
     background-color: #ff9f1a;
+}
+
+#economy .article article a:hover {
+    padding: 10px;
+}
+
+#technology{
+    background-color: #4239d5;
+}
+
+#technology .article article a {
+    background-color: #0088ff;
+}
+
+#technology .article article a:hover {
+    padding: 10px;
+}
+
+#entertainment{
+    background-color: #d42b56;
+}
+
+#entertainment .article article a {
+    background-color: #800000;
+}
+
+#entertainment .article article a:hover {
+    padding: 10px;
 }
